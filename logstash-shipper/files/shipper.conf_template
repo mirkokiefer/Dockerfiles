@@ -1,0 +1,11 @@
+
+input {
+  stdin {
+    type => "example"
+  }
+}
+
+output {
+  stdout { codec => rubydebug }
+  redis { host => "{redis_host}" data_type => "list" key => "logstash" }
+}
