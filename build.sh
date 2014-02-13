@@ -1,5 +1,5 @@
 
-for image in base node redis java elasticsearch logstash-indexer logstash-kibana beaver couchdb
+for image in base node redis java elasticsearch logstash logstash-indexer logstash-kibana beaver couchdb
 do
   printf "\n ------- build $image -------\n\n"
   cd $image

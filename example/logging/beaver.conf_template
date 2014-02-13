@@ -1,0 +1,10 @@
+[beaver]
+redis_url: redis://{redis_host}:6379/0
+redis_namespace: logstash
+logstash_version: 1
+format: json
+
+[/logs/*log]
+type: node
+tags: example1
+format: rawjson
