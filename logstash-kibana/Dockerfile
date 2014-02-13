@@ -3,6 +3,6 @@ FROM mirkokiefer/logstash
 
 EXPOSE 9292
 
-ADD files/run.sh run.sh
+ADD files/run.sh /kibana.sh
 
-CMD ["bash", "run.sh"]
+CMD ["bash", "/kibana.sh"]

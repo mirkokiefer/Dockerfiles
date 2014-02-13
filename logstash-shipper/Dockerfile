@@ -1,8 +1,6 @@
 
 FROM mirkokiefer/logstash
 
-ADD files/shipper.conf_template shipper.conf_template
+ADD files /logstash-shipper
 
-ADD files/run.sh run.sh
-
-CMD ["bash", "run.sh"]
+CMD ["bash", "/logstash-shipper/run.sh"]

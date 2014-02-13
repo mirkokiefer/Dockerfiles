@@ -1,9 +1,5 @@
 
-FROM mirkokiefer/base
-
-RUN apt-get update
-
-RUN apt-get install -y wget openjdk-6-jre
+FROM mirkokiefer/java
 
 ADD install_es.sh /install_es.sh
 

@@ -4,7 +4,7 @@ FROM mirkokiefer/base
 RUN apt-get update
 
 # couch deps
-RUN apt-get install -y g++ build-essential curl
+RUN apt-get install -y g++ build-essential
 RUN apt-get install -y erlang-dev erlang-manpages erlang-base-hipe erlang-eunit erlang-nox erlang-xmerl erlang-inets
 # couch dev deps
 RUN apt-get install -y libmozjs185-dev libicu-dev libcurl4-gnutls-dev libtool
