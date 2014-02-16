@@ -15,7 +15,7 @@ input {
 output {
   stdout { debug => true debug_format => "json"}
 
-  elasticsearch {
+  elasticsearch_http {
     host => "{es_host}"
   }
 }

@@ -1,5 +1,5 @@
 
-VERSION=0.90.9
+VERSION=1.0.0
 FILE=elasticsearch-$VERSION.tar.gz
 curl https://download.elasticsearch.org/elasticsearch/elasticsearch/$FILE > /tmp/$FILE
 
